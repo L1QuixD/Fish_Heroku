@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#prediction-result {
+    font-weight: bold;
+    margin-top: 20px;
+}

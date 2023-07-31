@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fish Market Prediction</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Fish Market Prediction</h1>
+    <form id="fish-form">
+        <!-- Input fields for features -->
+        <!-- For Regression (e.g., Length1, Length2, Length3, Height, Width) -->
+        <!-- For Classification (e.g., Length1, Length2, Length3, Height, Width) -->
+        <label for="length1">Length1:</label>
+        <input type="number" id="length1" name="length1" step="any" required>
+        
+        <label for="length2">Length2:</label>
+        <input type="number" id="length2" name="length2" step="any" required>
+        
+        <label for="length3">Length3:</label>
+        <input type="number" id="length3" name="length3" step="any" required>
+        
+        <label for="height">Height:</label>
+        <input type="number" id="height" name="height" step="any" required>
+        
+        <label for="width">Width:</label>
+        <input type="number" id="width" name="width" step="any" required>
+        
+        <!-- Add a submit button to trigger the prediction -->
+        <button type="button" onclick="predictFish()">Predict</button>
+    </form>
+    <p id="prediction-result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
